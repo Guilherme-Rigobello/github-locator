@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
+  height: 100%;
+}
